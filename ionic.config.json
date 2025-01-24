@@ -1,0 +1,7 @@
+{
+  "name": "Upside-Downimal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
