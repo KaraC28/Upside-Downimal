@@ -1,6 +1,6 @@
 # About
 Upside Downimal is a two player web application created as a fun final semester project for Pace University's Mobile Web Development course. 
-One player draws on the canvas based a generated JSON image. The goal is to draw the animal upside to the best of their ability while the other player gives a point or not based on accuracy.
+One player draws on the canvas based a generated JSON image. The goal is to draw the animal upside down to the best of their ability while the other player gives a point or not based on accuracy under a 30 second timer.
 https://upside-downimal-a2373.web.app/home 
 
 # General Info
@@ -14,7 +14,8 @@ Published: Firebase
 - A 'Give Point' button incrementing points and moves onto next JSON image 
 - A 'No Point' button that only moves onto next JSON image 
 - A  canvas that allows both mouse and touch drawing
-- A 'Clear" button that clears what was previously on the canvas 
+- A 'Clear" button that clears what was previously on the canvas
+- A timer that decrements down from 30 to 0 that starts with a button and resets after a point is given or not
 - A Json file filled with 10 images of animals that returns back to the first animal once it parses up to the end of the list
    Webpage is responsive to both mobile and PC dimensions
 
